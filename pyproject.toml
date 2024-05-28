@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "20240528-sessions-csv"
+version = "0.1.0"
+description = ""
+authors = ["Anthony Chu <antchu@microsoft.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.10"
+python-dotenv = "^1.0.1"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
